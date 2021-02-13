@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+@font-face {
+	font-family: 'Recife Display';
+	font-weight: 300;
+	font-style: normal;
+	src: url('../assets/fonts/RecifeDisplay-Light.eot');
+	src: url('../assets/fonts/RecifeDisplay-Light.eot?#iefix') format('embedded-opentype'),
+	url('../assets/fonts/RecifeDisplay-Light.woff2') format('woff2'), 
+	url('../assets/fonts/RecifeDisplay-Light.woff') format('woff'), 
+	url('../assets/fonts/RecifeDisplay-Light.ttf') format('truetype'),
+	url('../assets/fonts/RecifeDisplay-Light.svg#codropsicons') format('svg');
+}
+
+@font-face {
+	font-family: 'Schnyder';
+	font-weight: 500;
+	font-style: normal;
+	src: url('../assets/fonts/Schnyder-Demi.eot');
+	src: url('../assets/fonts/Schnyder-Demi.eot?#iefix') format('embedded-opentype'),
+	url('../assets/fonts/Schnyder-Demi.woff2') format('woff2'), 
+	url('../assets/fonts/Schnyder-Demi.woff') format('woff'), 
+	url('../assets/fonts/Schnyder-Demi.ttf') format('truetype'),
+	url('../assets/fonts/Schnyder-Demi.svg#codropsicons') format('svg');
+}

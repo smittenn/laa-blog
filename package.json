@@ -1,0 +1,29 @@
+{
+  "name": "laa-blog",
+  "version": "1.0.0",
+  "description": "A simple portfolio + blog for a LAA.",
+  "scripts": {
+    "start": "webpack-cli -w & bundle exec jekyll serve --livereload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allizad/laa-blog.git"
+  },
+  "keywords": [
+    "jekyll",
+    "webpack",
+    "react"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "react": "^16.6.0",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

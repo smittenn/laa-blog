@@ -1,0 +1,25 @@
+// Core Palette
+$color-brand-maroon: #773344;
+$color-brand-pink: #F4CFC9;
+
+// Accent Palette
+$color-brand-orange: #EC8861;
+$color-brand-peach: #FCAD92;
+$color-brand-tangerine: #FDBF8F;
+
+$color-brand-lemon: #EFDE7E;
+
+$color-brand-teal: #43A7C6;
+$color-brand-silver: #C2D1D6;
+
+$color-brand-moss: #D1CBBA;
+
+
+// Site Variables
+$text-color: $color-brand-maroon;
+$background-color: $color-brand-pink;
+$brand-color: #2a7ae2;
+
+$grey-color: $color-brand-silver;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark: darken($grey-color, 25%);
