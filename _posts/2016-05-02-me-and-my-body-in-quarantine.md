@@ -8,7 +8,8 @@ layout: post
 
 It’s April, two-thousand and twenty, and we have been in quarantine for about two months, we being me and my body. At the beginning, we were doing okay. Now, it’s May. Still no chance in sight of getting tested for COVID-19, and homesick.
 
-![me-and-my-body-together-in-quarantine.jpg](/uploads/me-and-my-body-together-in-quarantine.jpg)
+![me-and-my-body-together-in-quarantine.jpg](../../../../../uploads/me-and-my-body-together-in-quarantine.jpg)
+
 
 We were healthy: no sign of the global emergency burning up our forehead or being shot dryly out of our mouth. We were eating well — most of the time, going on walks with the dog, and sporadically jogging through the spacious, grassy graveyard near our new apartment in a less-congested part of the city, Brooklyn to Queens. We had just moved in with our boyfriend, and we are so glad. We feel safer.
 
