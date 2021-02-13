@@ -1,9 +1,11 @@
 ---
+title: Me and My Body Together in Quarantine
+date: 2016-05-02 14:28:59 Z
+categories:
+- Essays
 layout: post
-title:  "Me and My Body Together in Quarantine"
-date:   2016-05-02 09:28:59 -0500
-categories: [Essays]
 ---
+
 It’s April, two-thousand and twenty, and we have been in quarantine for about two months, we being me and my body. At the beginning, we were doing okay. Now, it’s May. Still no chance in sight of getting tested for COVID-19, and homesick.
 
 ![illustration](/assets/images/me-and-my-body-together-in-quarantine.jpg)

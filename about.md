@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 For all inquiries, please email [laurenalyssaames@gmail.com](mailto:laurenalyssaames@gmail.com).
