@@ -17,6 +17,6 @@ twitter_username: LaurynAymes
 instagram_username: laurynaymes
 
 # Build settings
-source: src
+# source: src
 # markdown: kramdown
 # destination: public
