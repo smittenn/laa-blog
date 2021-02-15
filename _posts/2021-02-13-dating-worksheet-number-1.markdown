@@ -10,8 +10,9 @@ categories:
 
 PLEASE COMPLETE IN A TIMELY MANNER AND BRING YOUR PAPER UP TO THE TEACHER’S DESK WHEN YOU’RE FINISHED. THANK YOU.
 
+<hr/>
 Name:	              Date:
-
+<hr/>
 
 1. When you first met your now ex-boyfriend, you knew right away you would end up dating. How did you predict it would end? How is that different from how it actually ended? Compare and contrast.
 
