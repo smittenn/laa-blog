@@ -7,4 +7,4 @@ categories:
 
 Digital Short featuring Chance the Rapper. A commercial advertising Tasty Toaster Tarts - the flaky, sweet treat kids crave!
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rF9ZIdEnZU0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/rF9ZIdEnZU0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
