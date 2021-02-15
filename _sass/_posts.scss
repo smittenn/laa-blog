@@ -1,4 +1,10 @@
 // Posts
+.post-list, .post {
+  hr {
+    min-width: 100%;
+  }
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
@@ -20,10 +26,6 @@
     @include media-query($on-laptop) {
       max-width: 100%;
     }
-  }
-  hr {
-    min-width: 100%;
-    margin: $spacing-unit 0;
   }
 }
 
@@ -76,6 +78,16 @@
 
     @include media-query($on-laptop) {
       font-size: 18px;
+    }
+  }
+
+  p {
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 

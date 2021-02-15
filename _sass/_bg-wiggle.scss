@@ -6,8 +6,12 @@
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  animation: shift-in $easing6 1.2s;
+  animation: shift-in $easing1 1.6s;
   animation-fill-mode: forwards;
+
+  &__svg {
+    fill: $color-brand-sienna;
+  }
 
   > svg {
     position: absolute;

@@ -17,20 +17,8 @@ layout: default
   </div>
 
   <h6 class="heading-6">Related Posts</h6>
-  <ul class="post-list">
-    {% for post in site.related_posts %}
-      <li class="post-list-item">
-        <hr/>
-        <h5 class="heading-5 mb0">{{ post.categories }}</h5>
-        <h3 class="heading-3">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <div class="post-content--truncated">
-          {{ post.content | strip_html }}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+  {% assign posts = site.related_posts %}
+
+  {% include post-list.html %}
 
 </article>

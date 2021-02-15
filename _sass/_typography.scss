@@ -27,9 +27,9 @@ html, body {
   font-weight: 500;
 }
 
-.heading-1,
 .heading-2,
-.heading-3 {
+.heading-3,
+.heading-4 {
   line-height: (($golden-ratio - 1) / 4) + 1;
 }
 
@@ -41,9 +41,10 @@ html, body {
 .heading-1 {
   font-family: $font-family-display;
   font-size: 120px;
+  line-height: (($golden-ratio - 1) / 8) + 1;
   font-weight: 300;
-  letter-spacing: -4px;
-  line-height: 1;
+  letter-spacing: -3px;
+  max-width: 960px;
 
   @include media-query($on-laptop) {
     font-size: 80px;
@@ -59,7 +60,7 @@ html, body {
 }
 
 .heading-3 {
-  font-size: 55px;
+  font-size: 56px;
 }
 
 .heading-4 {

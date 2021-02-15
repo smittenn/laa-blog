@@ -1,8 +1,6 @@
-/**
- * Site header
- */
- .site-header {
-  position: fixed;
+// Site header
+.site-header {
+  position: absolute;
   width: 100%;
   border-bottom: 1px solid rgba($color-brand-maroon, 0.1);
   min-height: 64px;
@@ -78,21 +76,18 @@
   }
 }
 
+.page-link {
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
 .site-nav {
   float: right;
   line-height: 56px;
 
   .menu-icon {
     display: none;
-  }
-
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
   }
 
   @include media-query($on-palm) {
