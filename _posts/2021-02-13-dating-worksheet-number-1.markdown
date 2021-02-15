@@ -7,7 +7,7 @@ categories:
 
 “Question #8: If you get blackout drunk at 8 p.m. and text your ex’s lesbian roommate at 10 p.m., how many unanswered messages later does it take for you to realize that you may have misread her energy in the kitchen that one time?”
 
-
+<hr>
 PLEASE COMPLETE IN A TIMELY MANNER AND BRING YOUR PAPER UP TO THE TEACHER’S DESK WHEN YOU’RE FINISHED. THANK YOU.
 
 <hr>
