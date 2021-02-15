@@ -1,0 +1,58 @@
+// Page content
+.bg-wiggle {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  animation: shift-in $easing6 1.2s;
+  animation-fill-mode: forwards;
+
+  > svg {
+    position: absolute;
+
+    &:first-child {
+      transform: rotate(45deg);
+      left: 0;
+      bottom: 0;
+      transform-origin: 25% -100%;
+      animation: wave-shift-1 4s infinite linear;
+    }
+
+    &:last-child {
+      right: 0;
+      top: 0;
+      transform: rotate(-135deg);
+      transform-origin: 75% 25%;
+      animation: wave-shift-2 4s infinite linear;
+    }
+  }
+
+  @keyframes wave-shift-1 {
+    0% {
+      transform: rotate(45deg) translate3d(-72px,0,0) ;
+    }
+    100% {
+      transform: rotate(45deg) translate3d(72px,0,0);
+    }
+  }
+
+  @keyframes wave-shift-2 {
+    0% {
+      transform: rotate(-135deg) translate3d(0,0,0) ;
+    }
+    100% {
+      transform: rotate(-135deg) translate3d(144px,0,0);
+    }
+  }
+
+  @keyframes shift-in {
+    0% {
+      transform: scale3d(1.5,1.5,1.5);
+    }
+    100% {
+      transform: none;
+    }
+  }
+}

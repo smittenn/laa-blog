@@ -14,10 +14,16 @@
 }
 
 .post-list-item {
-  max-width: 60%;
+  > * {
+    max-width: 720px;
 
-  @include media-query($on-laptop) {
-    max-width: 100%;
+    @include media-query($on-laptop) {
+      max-width: 100%;
+    }
+  }
+  hr {
+    min-width: 100%;
+    margin: $spacing-unit 0;
   }
 }
 
@@ -42,6 +48,12 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+
+  img, iframe {
+    min-width: calc(100% + #{4 * $spacing-unit});
+    transform: translate(-(2 * $spacing-unit));
+    margin: $spacing-unit 0;
+  }
 
   h2 {
     font-size: 32px;

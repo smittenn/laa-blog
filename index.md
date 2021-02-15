@@ -20,24 +20,8 @@ layout: default
     </ul>
 
     <p>ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-    <hr/>
   </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li class="post-list-item">
-        <h5 class="heading-5 mb0">{{ post.categories }}</h5>
-        <h3 class="heading-3">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <div class="post-content--truncated">
-          {{ post.content }}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-
+  {% include post-list.html %}
 
 </div>

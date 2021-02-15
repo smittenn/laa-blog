@@ -1,0 +1,15 @@
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li class="post-list-item">
+      <hr/>
+      <h5 class="heading-5 mb0">{{ post.categories }}</h5>
+      <h3 class="heading-3">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h3>
+      <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+      <div class="post-content--truncated">
+        {{ post.content | strip_html }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

@@ -18,3 +18,11 @@ $on-palm: 600px;
         @content;
     }
 }
+
+
+$easing1: cubic-bezier(0.215, 0.61, 0.355, 1);
+$easing2: cubic-bezier(.19,1,.22,1);
+$easing3: cubic-bezier(0.86, 0, 0.07, 1);
+$easing4: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$easing5: cubic-bezier(0.7, 0, 0.3, 1);
+$easing6: cubic-bezier(.77,0,.175,1);
