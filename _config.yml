@@ -17,3 +17,5 @@ baseurl: "/laa-blog"
 url: https://erchsm.github.io
 twitter_username: LaurynAymes
 instagram_username: laurynaymes
+
+exclude: ["webpack", "node_modules"]

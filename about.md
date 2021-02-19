@@ -1,5 +1,5 @@
 ---
-title: About
+title: About 👩‍💻
 date: 2021-02-13 20:50:00 Z
 permalink: "/about/"
 layout: page

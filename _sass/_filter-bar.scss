@@ -1,9 +1,30 @@
 .filter-bar {
   position: sticky;
-  top: 0;
+  top: -1px;
 
-  span {
+  &__name, &__slash {
+    opacity: 0.6;
+  }
+
+  &__name {
+    transition: opacity $easing6 0.4s;
+    cursor: pointer;
+  }
+
+  &--active {
+    opacity: 1;
+  }
+
+  &__count {
     transform: translateY(-100%);
     display: inline-block;
+  }
+
+  &[stuck] {
+    background: linear-gradient(to right, $color-brand-pink 50%, transparent 100%);
+  }
+
+  @include media-query($on-palm) {
+    display: none;
   }
 }
