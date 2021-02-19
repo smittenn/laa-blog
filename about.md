@@ -1,5 +1,5 @@
 ---
-title: About 👩‍💻
+title: "About \U0001F469‍\U0001F4BB"
 date: 2021-02-13 20:50:00 Z
 permalink: "/about/"
 layout: page
