@@ -16,11 +16,11 @@ layout: default
     {{ content }}
   </div>
 
-  <hr>
-  <h6 class="heading-6">Related Posts</h6>
-  <hr>
-  {% assign posts = site.related_posts %}
-
-  {% include post-list.html %}
-
 </article>
+
+<hr>
+<h6 class="heading-6">Related Posts</h6>
+<hr>
+{% assign posts = site.related_posts %}
+
+{% include post-list.html %}

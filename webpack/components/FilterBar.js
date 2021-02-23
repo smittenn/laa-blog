@@ -32,6 +32,12 @@ class FilterBar extends Component {
 
     filterBarItems.forEach(item => {
       item.onclick = () => {
+        item.scrollIntoView({ 
+          behavior: "smooth",
+          block: "start", 
+          inline: "nearest"
+        });
+
         filterBarItems.forEach(item => { item.classList.remove('filter-bar--active') });
         item.classList.add('filter-bar--active');
         const id = item.getAttribute('data');

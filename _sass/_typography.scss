@@ -10,8 +10,6 @@ $base-font-weight: 400;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: $golden-ratio;
 
-$spacing-unit: 32px;
-
 html, body {
   font-size: $base-font-size;
 }
@@ -25,6 +23,7 @@ html, body {
 .heading-6 {
   font-family: $font-family-heading;
   font-weight: 500;
+  -webkit-font-smoothing: antialiased;
 }
 
 .heading-2,

@@ -58,7 +58,7 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  img, iframe {
+  img, iframe, figcaption {
     min-width: calc(100% + #{4 * $spacing-unit});
     transform: translate(-(2 * $spacing-unit));
     margin: $spacing-unit 0;
@@ -68,7 +68,6 @@
       max-width: 100%;
       transform: none;
     }
-
   }
 
   h2 {

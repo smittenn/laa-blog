@@ -7,7 +7,7 @@ categories:
 
 After eight hours of teaching, I returned to my studio apartment and made a quick dinner of canned tuna, kimchi, and rice. When I sat down at my desk chair, I noticed a small stinging sensation within my lower half which I envisioned as small stones clicking against walls of a cave as if they were knocked around by a scurrying animal. I had felt this before and knew what I had to do.
 
----
+{% include image.html url="../../../../uploads/call-for-donations.jpg" description="Image by [ Olga Semklo](https://www.instagram.com/semklo.design/)" %}
 
 My 10 a.m. alarm was more startling than it should’ve been. I sleepily dressed and headed to the pink building I passed everyday on the way to my teaching job that I was pretty sure was a gynecology office. It was March 10th, 2015, and Seoul was finally starting to get warm. I crossed the street too soon and ended up standing in the middle the road while cars streamed past me, alarmingly close to my body. A song called Sex on the Regular swam into my ears through my headphones and poked at my conscience. I sighed.
 

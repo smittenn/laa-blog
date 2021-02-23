@@ -11,6 +11,9 @@ This essay was originally published on [Medium](https://medium.com/@laurenalyss
 
 The other day, my best friend and I were discussing the [murder of George Floyd](https://www.nytimes.com/2020/05/31/us/george-floyd-investigation.html) and the subsequent resurgence of the [Black Lives Matter](https://blacklivesmatter.com/) movement. I rhetorically asked why this is all happing right now, which is to say _during the pandemic_, and she made a great point: Because most Americans are spending a lot of time at home, reflecting.
 
+
+{% include image.html url="//laurenalyssaames.files.wordpress.com/2020/07/tylergarden_neonflag_1.jpeg" description="Image by [Tyler Gardon](https://www.instagram.com/portamalmar/)" %}
+
 By calling it a hoax (before calling it terrorism and encouraging xenophobia), neglecting pandemic instructions left by the previous administration, ignoring warnings from and silencing experts, demonstrating against mask-wearing, and failing to invoke the Defense Production Act to acquire ventilators and PPE among other [myriad issues](https://www.theatlantic.com/politics/archive/2020/05/trumps-lies-about-coronavirus/608647/), the current presidential administration has failed to control Covid-19\. As a result, over one hundred thousand Americans have died — a steadily rising number — and millions more are spending the majority of their time in their homes.
 
 Reflection, especially self-reflection, isn’t often regarded as a major social skill, but understanding yourself is a crucial aspect of understanding others, and understanding others is a crucial way of understanding the world and how it works. The continued threat of the novel coronavirus has given many Americans time to reflect, myself included. I’ve learned that:
