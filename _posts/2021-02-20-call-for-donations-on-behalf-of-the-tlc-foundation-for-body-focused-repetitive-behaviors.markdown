@@ -6,11 +6,11 @@ categories:
 - Copywriting
 ---
 
-*Facebook post written by Hannah Schauben and edited by me can be found here.*
+*Facebook [post](https://www.facebook.com/donate/224969042092814/224969075426144/) written by Hannah Schauben and edited by me.*
 
-***
+---
 EDITED VERSION (by Lauren Ames):
-***
+---
 
 Hi, everyone!
 
@@ -46,9 +46,9 @@ This year for my birthday I humbly ask that you share this abbreviated version o
 
 This nonprofit organization has changed my life and the lives of countless individuals through research, resources, connections, and love. I would like to say thank you, TLC, from the bottom of my heart, and thank you to all of you who have taken the time to read this.
 
-***
+---
 ORIGINAL VERSION (by Hannah Schauben):
-***
+---
 
 Hi Everyone! I hope you are staying as safe as possible during this transitional time of uncertainty, instability, and heightened emotions. This pandemic is not easy for anyone; that’s why (safely) staying connected to others is so essential to our mental health. I know that my feelings of isolation, fear, and helplessness have eased through remaining connected, especially when I have not wanted to.
 
