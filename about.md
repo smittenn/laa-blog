@@ -9,7 +9,7 @@ For all inquiries, please email [laurenalyssaames@gmail.com](mailto:laurenalyssa
 
 For shitposting, search @laurynaymes.
 
-Lauren lives in NYC with her dog, Sandwich.
+Lauren lives in NYC with her dog, [Sandwich](https://www.instagram.com/sandwichtheterrier/).
 
 For what she’s reading, friend her on [Goodreads](https://www.goodreads.com/user/show/111201570-lauren).
 

@@ -5,23 +5,23 @@ class FilterBar extends Component {
   constructor(props) {
     super(props);
 
-    this._gradientOnSticky();
-    this._filterItemClick();
+    this.filterBar = document.querySelectorAll('.filter-bar')[0];
+
+    if (this.filterBar) {
+      this._gradientOnSticky();
+      this._filterItemClick();
+    }
   }
 
   _gradientOnSticky() {
-    const filterBar = document.querySelector('.filter-bar');
+    const options = { threshold: [1] };
+    
+    const observer = new IntersectionObserver( 
+      ([e]) => e.target.toggleAttribute('stuck', e.intersectionRatio < 1),
+      options
+    );
 
-    if (filterBar) {
-      const options = { threshold: [1] };
-      
-      const observer = new IntersectionObserver( 
-        ([e]) => e.target.toggleAttribute('stuck', e.intersectionRatio < 1),
-        options
-      );
-
-      observer.observe(document.querySelector('.filter-bar'));
-    }
+    observer.observe(this.filterBar);
   }
 
   _filterItemClick() {
@@ -32,7 +32,7 @@ class FilterBar extends Component {
 
     filterBarItems.forEach(item => {
       item.onclick = () => {
-        item.scrollIntoView({ 
+        this.filterBar.scrollIntoView({ 
           behavior: "smooth",
           block: "start", 
           inline: "nearest"

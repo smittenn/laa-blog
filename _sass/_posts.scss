@@ -24,6 +24,7 @@
 .post {
   max-width: 720px;
   margin: 0 auto;
+  padding-bottom: 3 * $spacing-unit;
 }
 
 .post-list-item {
@@ -41,6 +42,11 @@
 
 .post-link {
   display: block;
+
+  &:hover {
+    background-image: url(../assets/images/wiggle-underline.svg);
+    background-size: 100% 2%;
+  }
 }
 
 .post-header {
@@ -53,6 +59,20 @@
 
 .post-title {
 
+}
+
+.related-posts {
+  .post-list {
+    display: flex;
+
+    hr {
+      display: none;
+    }
+
+    .post-list-item {
+      margin-right: $spacing-unit;
+    }
+  } 
 }
 
 .post-content {

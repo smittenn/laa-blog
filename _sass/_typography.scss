@@ -7,7 +7,6 @@ $golden-ratio: 1.61803398875;
 $base-font-size: 22px;
 $base-font-weight: 400;
 
-$small-font-size: $base-font-size * 0.875;
 $base-line-height: $golden-ratio;
 
 html, body {
@@ -70,12 +69,20 @@ html, body {
   font-size: 32px;
 }
 
-.heading-6 {
+.heading-6, .heading-7 {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.heading-6 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.heading-7 {
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .mb0 {

@@ -25,10 +25,10 @@ layout: default
 
   {% assign posts = site.posts %}
 
-  {% assign essays = site.posts | where: "categories","Essays" %}
-  {% assign humor = site.posts | where: "categories","Humor" %}
-  {% assign producing = site.posts | where: "categories","Producing" %}
-  {% assign copywriting = site.posts | where: "categories","Copywriting" %}
+  {% assign essays = site.posts | where: "categories", "Essays" %}
+  {% assign humor = site.posts | where: "categories", "Humor" %}
+  {% assign producing = site.posts | where: "categories", "Producing" %}
+  {% assign copywriting = site.posts | where: "categories", "Copywriting" %}
 
   <div class="filter-bar">
     <hr>

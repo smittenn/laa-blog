@@ -1,3 +1,11 @@
 .image {
   margin-bottom: $spacing-unit;
+
+  figcaption {
+    text-align: center;
+
+    p {
+      transform: translateY(-16px);
+    }
+  }
 }
