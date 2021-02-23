@@ -13,9 +13,10 @@ defaults:
     path: ''
     type: posts
   values:
-    theme_color: '#ffffff'
+    theme_color: "#ffffff"
 email: laurenalyssaames@gmail.com
-description: 'Lauren Alyssa Ames is a writer specializing in essays, short stories, humor, and human interest.  Her first novel is currently in the works.'
+description: Lauren Alyssa Ames is a writer specializing in essays, short stories,
+  humor, and human interest.  Her first novel is currently in the works.
 baseurl: "/laa-blog"
 url: https://erchsm.github.io
 twitter_username: laurynaymes
