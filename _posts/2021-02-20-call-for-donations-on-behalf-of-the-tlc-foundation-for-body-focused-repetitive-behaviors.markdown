@@ -49,6 +49,7 @@ This nonprofit organization has changed my life and the lives of countless indiv
 
 ---
 ORIGINAL VERSION (by Hannah Schauben):
+
 ---
 
 Hi Everyone! I hope you are staying as safe as possible during this transitional time of uncertainty, instability, and heightened emotions. This pandemic is not easy for anyone; that’s why (safely) staying connected to others is so essential to our mental health. I know that my feelings of isolation, fear, and helplessness have eased through remaining connected, especially when I have not wanted to.
