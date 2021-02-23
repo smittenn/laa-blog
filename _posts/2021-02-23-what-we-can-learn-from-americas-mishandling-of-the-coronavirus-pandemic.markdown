@@ -5,7 +5,7 @@ categories:
 - Essays
 ---
 
-This essay was originally published on Medium.com. View it [here](https://medium.com/@laurenalyssaames/what-we-can-learn-from-americas-mishandling-of-the-coronavirus-pandemic-2bdf33272ee8)._
+This essay was originally published on [Medium](https://medium.com/@laurenalyssaames/what-we-can-learn-from-americas-mishandling-of-the-coronavirus-pandemic-2bdf33272ee8).
 
 * * *
 
