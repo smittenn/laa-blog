@@ -1,5 +1,5 @@
 ---
-title: "About \U0001F469‍\U0001F4BB"
+title: About
 date: 2021-02-13 15:50:00 -05:00
 permalink: "/about/"
 layout: page
