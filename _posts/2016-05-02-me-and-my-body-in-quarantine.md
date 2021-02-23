@@ -1,8 +1,9 @@
 ---
 title: Me and My Body Together in Quarantine
-date: 2016-05-02 14:28:00 Z
+date: 2016-05-02 10:28:00 -04:00
 categories:
 - Essays
+theme_color: "#ef814a"
 layout: post
 ---
 
