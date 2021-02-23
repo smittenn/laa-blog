@@ -8,6 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    theme_color: Ethan
 email: laurenalyssaames@gmail.com
 description: 'Lauren Alyssa Ames is a writer specializing in essays, short stories,
   humor, and human interest.  Her first novel is currently in the works.
@@ -20,11 +26,3 @@ instagram_username: laurynaymes
 exclude:
 - webpack
 - node_modules
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      theme_color: "Ethan"
