@@ -1,15 +1,15 @@
 ---
 title: Call for Donations on Behalf of the TLC Foundation for Body-Focused Repetitive
   Behaviors
-date: 2021-02-20 04:26:00 Z
+date: 2021-02-19 23:26:00 -05:00
 categories:
 - Copywriting
 ---
 
-*Facebook [post](https://www.facebook.com/donate/224969042092814/224969075426144/) written by Hannah Schauben and edited by me.*
+Facebook [post](https://www.facebook.com/donate/224969042092814/224969075426144/) written by Hannah Schauben and edited by me.
 
 ---
-EDITED VERSION (by Lauren Ames):
+Edited Version (by Lauren Ames):
 
 ---
 
