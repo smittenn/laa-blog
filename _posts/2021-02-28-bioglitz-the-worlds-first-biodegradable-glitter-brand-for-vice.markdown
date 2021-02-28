@@ -3,6 +3,7 @@ title: 'BioGlitz: The World’s First Biodegradable Glitter Brand for Vice'
 date: 2021-02-28 14:24:00 -05:00
 categories:
 - Producing
+theme_color: "#AD6078"
 ---
 
 Created with W Hotels and Vice Media.
