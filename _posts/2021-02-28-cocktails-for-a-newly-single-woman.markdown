@@ -21,6 +21,8 @@ Hosting after a breakup? These are the recipes you’ve been looking for. Did I 
 
 * 1 more part vodka because fuck it, whatever
 
+---
+
 ### Telling Mom
 
 * 2 parts gin
@@ -29,11 +31,15 @@ Hosting after a breakup? These are the recipes you’ve been looking for. Did I 
 
 * 1 part “Would it kill you to put on a pair of heels once in a while? Jesus.”
 
+---
+
 ### Getting Back on the Horse
 
 * 2 parts off-brand corner store ginger ale
 
 * 1 part Tanqueray (Note: Continue to take big, intermittent swigs from the bottle while anxiously applying makeup in the kitchen.)
+
+---
 
 ### Finance Fuckboy
 * 1 shot bottom-shelf tequila
@@ -44,12 +50,16 @@ Hosting after a breakup? These are the recipes you’ve been looking for. Did I 
 
 * Garnish with vagueness about intentions
 
+---
+
 ### Drunk Text
 * 5 shots of Fireball
 
 * Water from the bar’s bathroom sink
 
 * Water from the guy who held your hair back at the bar’s bathroom sink
+
+---
 
 ### Dark N’ Stormy
 
@@ -60,6 +70,8 @@ Hosting after a breakup? These are the recipes you’ve been looking for. Did I 
 * Wedge of lime
 
 * Rainwater because you’re literally sitting outside in a storm. What are you doing? Go inside.
+
+---
 
 ### No Closure
 
