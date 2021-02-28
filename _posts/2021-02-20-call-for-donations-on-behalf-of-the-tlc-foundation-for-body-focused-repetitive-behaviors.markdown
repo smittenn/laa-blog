@@ -6,6 +6,7 @@ categories:
 ---
 
 Fundraiser for TLC Foundation for Body-Focused Repetitive Behaviors. Facebook [post](https://www.facebook.com/donate/224969042092814/224969075426144/) written by Hannah Schauben and edited by me. The TLC Foundation's mission is to end the suffering caused by hair pulling disorders, skin picking disorders, and related body-focused repetitive behaviors. 
+
 ---
 Edited Version (by Lauren Ames):
 
