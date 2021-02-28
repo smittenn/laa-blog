@@ -1,6 +1,5 @@
 ---
-title: Call for Donations on Behalf of the TLC Foundation for Body-Focused Repetitive
-  Behaviors
+title: Call for Donations on Behalf of the TLC Foundation
 date: 2021-02-19 23:26:00 -05:00
 categories:
 - Copywriting
