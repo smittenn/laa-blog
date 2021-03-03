@@ -13,7 +13,7 @@ defaults:
     path: ''
     type: posts
   values:
-    theme_color: ""
+    theme_color: ''
 email: laurenalyssaames@gmail.com
 description: Lauren Alyssa Ames is a writer specializing in essays, short stories,
   humor, and human interest.  Her first novel is currently in the works.
