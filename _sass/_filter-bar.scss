@@ -1,6 +1,7 @@
 .filter-bar {
   position: sticky;
   top: -1px;
+  z-index: 1;
 
   &__name, &__slash {
     opacity: 0.6;

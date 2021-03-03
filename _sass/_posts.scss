@@ -43,10 +43,10 @@
 .post-link {
   display: block;
 
-  &:hover {
-    background-image: url(../assets/images/wiggle-underline.svg);
-    background-size: 100% 2%;
-  }
+  // &:hover {
+  //   background-image: url(../assets/images/wiggle-underline.svg);
+  //   background-size: 100% 2%;
+  // }
 }
 
 .post-header {
@@ -71,6 +71,7 @@
 
     .post-list-item {
       margin-right: $spacing-unit;
+      width: 50%;
     }
   } 
 }

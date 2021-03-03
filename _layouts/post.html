@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+{% if page.theme_color != "" %}
+  <style>
+    :root {
+      --color-theme-bg: {{ page.theme_color }};
+      --color-theme-fg: rgba(255, 255, 255, 0.9);
+      --color-theme-accent: rgba(255, 255, 255, 0.16);
+    }
+  </style>
+{% endif %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -8,7 +17,7 @@ layout: default
     <h5 class="heading-5">{% for category in page.categories %}
       {{ category }}{% if forloop.last == false %}, {% endif %}
     {% endfor %}</h5>
-    <h2 class="heading-2" itemprop="name headline">{{ page.title }}</h2>
+    <h2 class="heading-2 widont" itemprop="name headline">{{ page.title }}</h2>
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 

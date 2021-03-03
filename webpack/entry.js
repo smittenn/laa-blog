@@ -1,11 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import {render} from 'react-dom';
 import FilterBar from './components/FilterBar';
+import Widont from './components/Widont';
 
 class App extends Component {
   render() {
     return (
-      <FilterBar/>
+      <Fragment>
+        <Widont/>
+        <FilterBar/>
+      </Fragment>
     )
   }
 }

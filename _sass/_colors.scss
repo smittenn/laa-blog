@@ -15,12 +15,68 @@ $color-brand-silver: #C2D1D6;
 
 $color-brand-moss: #D1CBBA;
 
-
 // Site Variables
 $text-color: $color-brand-maroon;
 $background-color: $color-brand-pink;
-$brand-color: #2a7ae2;
 
 $grey-color: $color-brand-silver;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: darken($grey-color, 25%);
+
+
+@function hex-to-rgb($hex) {
+  @return red($hex), green($hex), blue($hex);
+}
+
+$colors: (
+  color-brand-maroon: #{$color-brand-maroon},
+  color-brand-pink: #{$color-brand-pink},
+  color-brand-orange: #{$color-brand-orange},
+  color-brand-sienna: #{$color-brand-sienna},
+  color-brand-peach: #{$color-brand-peach},
+  color-brand-tangerine: #{$color-brand-tangerine},
+  color-brand-lemon: #{$color-brand-lemon},
+  color-brand-teal: #{$color-brand-teal},
+  color-brand-silver: #{$color-brand-silver},
+  color-brand-moss: #{$color-brand-moss}
+);
+
+$theme: (
+  color-theme-fg: #{$color-brand-maroon},
+  color-theme-bg: #{$color-brand-pink},
+  color-theme-accent: #{$color-brand-sienna},
+);
+
+/* Create CSS Variables */
+:root {
+  @each $key, $val in $theme {
+    --#{$key}: #{$val};
+  }
+}
+
+body, a, a:hover {
+  color: var(--color-theme-fg);
+}
+
+body {
+  background-color: var(--color-theme-bg);
+}
+
+hr {
+  background-color: var(--color-theme-fg);
+}
+
+.page-link {
+  &:before {
+    background-color: var(--color-theme-accent);
+  }
+  &:last-child:before {
+    background-color: var(--color-theme-bg);
+  }
+}
+
+
+
+.bg-wiggle__svg {
+  fill: var(--color-theme-accent);
+}

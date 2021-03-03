@@ -6,8 +6,6 @@ categories:
 theme_color: "#AD6078"
 ---
 
-Created with W Hotels and Vice Media.
-
 Saba Gray is the founder and CEO of sustainable glitter company, BioGlitz. After years of working in fashion, Saba recognized that her love of plastic-based glitter was killing the planet. She then spent years working with natural ingredients to discover what became an cellulose-based product that is as beautiful as it is sustainable. 
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/0OvgSWLHwbY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
