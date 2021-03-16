@@ -1,8 +1,9 @@
 ---
 title: What We Can Learn From America’s Mishandling of the Coronavirus Pandemic
-date: 2021-02-23 02:00:00 Z
+date: 2021-02-22 21:00:00 -05:00
 categories:
 - Essays
+theme_color: "#102531"
 ---
 
 This essay was originally published on [Medium](https://medium.com/@laurenalyssaames/what-we-can-learn-from-americas-mishandling-of-the-coronavirus-pandemic-2bdf33272ee8).
