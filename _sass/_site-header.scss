@@ -1,20 +1,11 @@
 // Site header
 .site-header {
-  margin-top: 16px;
+  // margin-top: 16px;
   position: absolute;
   width: 100%;
   border-bottom: 1px solid rgba(var(--color-brand-maroon), 0.16);
 
   .wrapper {
-    display: flex;
-    // flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 80px;
-
-    &:after {
-      display: none;
-    }
   }
 }
 
@@ -22,32 +13,47 @@
   display: inline-block;
 }
 
-.page-link {
-  padding: 32px;
-  position: relative;
-
-  &:before {
-    content: '';
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      border-radius: 50%;
-      transform: rotate(-8deg);
-      transition: $easing6 $duration-short transform;
-  }
+.home-icon {
+  transition: $easing6 $duration-short transform;
 
   &:hover {
-    &::before {
-      transform: rotate(-188deg) scale(0.5);
-    }
+    transform: rotate(90deg);
+    text-decoration: none;
   }
 }
 
+// .page-link {
+  // padding: 32px;
+  // position: relative;
+
+  // &:before {
+  //   content: '';
+  //     display: block;
+  //     position: absolute;
+  //     left: 0;
+  //     top: 0;
+  //     width: 100%;
+  //     height: 100%;
+  //     z-index: -1;
+  //     border-radius: 50%;
+  //     transform: rotate(-8deg);
+  //     transition: $easing6 $duration-short transform;
+  // }
+
+  // &:hover {
+  //   &::before {
+  //     transform: rotate(-188deg) scale(0.5);
+  //   }
+  // }
+// }
+
 .site-nav {
+  display: flex;
+  // flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 72px;
+  
   .menu-icon {
     display: none;
   }

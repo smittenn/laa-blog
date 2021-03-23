@@ -7,11 +7,19 @@
       <h5 class="heading-5 site-title page-link mb0"><a href="//www.linkedin.com/in/lauren-ames-24551761/">👔</a></h5>
     </div> -->
 
-    {% for my_page in site.pages %}
-      {% if my_page.title %}
-        <a class="page-link heading-5 mb0" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-      {% endif %}
-    {% endfor %}
+    <nav class="site-nav">
+      {% for page in site.pages %}
+        {% if page.title %}
+          {% if page.title == "Home" %}
+            <a class="home-icon page-link heading-4 mb0" href="{{ page.url | prepend: site.baseurl }}">
+              ✦
+            </a>
+          {% else %}
+            <a class="page-link heading-5 mb0" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </nav>
 
     <!-- <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -26,6 +34,6 @@
         
       </div>
     </nav>-->
+    <hr class="m0"/>
   </div>
-  <!-- <hr class="m0"/> -->
 </header>

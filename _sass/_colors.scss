@@ -70,12 +70,10 @@ hr {
   &:before {
     background-color: var(--color-theme-accent);
   }
-  &:last-child:before {
-    background-color: var(--color-theme-bg);
+  &:last-child {
+      text-decoration-color: var(--color-theme-bg);
   }
 }
-
-
 
 .bg-wiggle__svg {
   fill: var(--color-theme-accent);

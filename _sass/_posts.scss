@@ -11,11 +11,29 @@
   list-style: none;
 
   > li {
+    position: relative;
     margin-bottom: $spacing-unit;
 
     &:first-child {
       hr {
         display: none;        
+      }
+    }
+  }
+
+  .home & {
+    .post-meta {
+      top: $spacing-unit;
+      position: absolute;
+    }
+    .post-list__title, .post-list__category, .post-content {
+      transform: translate3d(25%,0,0);
+    }
+    > li {
+      &:first-child {
+        .post-meta {
+          top: 0;
+        }
       }
     }
   }
@@ -82,7 +100,7 @@
   img, iframe, figcaption {
     min-width: calc(100% + #{4 * $spacing-unit});
     transform: translate(-(2 * $spacing-unit));
-    margin: $spacing-unit 0;
+    margin: (1.5 * $spacing-unit) 0;
 
     @include media-query($on-laptop) {
       min-width: 100%;

@@ -1,12 +1,13 @@
 ---
-title: Home
+title: Work
 date: 2021-02-12 01:56:00 -05:00
+permalink: "/work/"
 layout: default
 ---
 
-<div class="home">
+<div class="">
 
-  <h1 class="heading-1 page-heading">Lauren Alyssa Ames is a Writer, Copyeditor and Producer in NYC.</h1>
+  <h1 class="heading-1 page-heading">My Work</h1>
 
   {% assign posts = site.posts %}
 

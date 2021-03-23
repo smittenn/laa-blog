@@ -2,14 +2,14 @@
   {% for post in posts %}
     <li class="post-list-item">
       <hr/>
-      <h5 class="heading-5">{{ post.categories }}</h5>
-      <h3 class="heading-3">
+      <h5 class="post-list__category heading-5">{{ post.categories }}</h5>
+      <h3 class="post-list__title heading-3">
         <a class="post-link widont" href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title}}
         </a>
       </h3>
       <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-      <div class="post-content--truncated widont">
+      <div class="post-content post-content--truncated widont">
         {{ post.content | strip_html | markdownify }}
       </div>
     </li>
