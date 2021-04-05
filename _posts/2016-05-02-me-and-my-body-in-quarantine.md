@@ -7,7 +7,7 @@ theme_color: "#ef814a"
 layout: post
 ---
 
-It’s April, two-thousand and twenty, and we have been in quarantine for about two months, we being me and my body. At the beginning, we were doing okay. Now, it’s May. Still no chance in sight of getting tested for COVID-19, and homesick!
+It’s April, two thousand and twenty, and we have been in quarantine for about two months, we being me and my body. At the beginning, we were doing okay. Now, it’s May. Still no chance in sight of getting tested for COVID-19, and homesick!
 
 {% include image.html url="../../../../uploads/me-and-my-body-together-in-quarantine.jpg" description="Image by [Oscar Rodríguez Amado](https://www.instagram.com/portamalmar/)" %}
 
