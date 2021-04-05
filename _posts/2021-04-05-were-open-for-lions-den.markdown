@@ -1,6 +1,8 @@
 ---
 title: '"We''re Open" for Lion''s Den'
 date: 2021-04-05 14:56:00 -04:00
+categories:
+- Producing
 ---
 
 "We're Open" for Lion's Den, 2020
