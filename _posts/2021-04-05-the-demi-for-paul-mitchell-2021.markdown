@@ -7,7 +7,7 @@ categories:
 
 "The Demi" for Paul Mitchell, 2021
 
-<iframe width="854" height="480" src="https://https://www.instagram.com/p/CM5Ae6QjcVY/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.instagram.com/p/CM5Ae6QjcVY/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For: John Paul Mitchell Systems
 
