@@ -1,0 +1,20 @@
+---
+title: '"We''re Open" for Lion''s Den'
+date: 2021-04-05 14:56:00 -04:00
+---
+
+"We're Open" for Lion's Den, 2020
+
+<iframe width="854" height="480" src="https://vimeo.com/426295071 "frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+For: Lion's Den Adult Store
+
+Agency: Fancy, LLC
+Production Consultancy: The Auxiliary Co.
+Executive Producer: Dani Dufresne
+Producer: Lauren Ames
+
+Animator: Anne Calandre
+Sound Designer: Michael Schneider
+
+
