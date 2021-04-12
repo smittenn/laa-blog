@@ -21,13 +21,13 @@
     }
   }
 
-  .home & {
+  .home &, .work & {
     .post-meta {
       top: $spacing-unit;
       position: absolute;
     }
     .post-list__title, .post-list__category, .post-content {
-      transform: translate3d(25%,0,0);
+      transform: translate3d(33.3333%,0,0);
     }
     > li {
       &:first-child {
@@ -42,7 +42,7 @@
 .post {
   max-width: 720px;
   margin: 0 auto;
-  padding-bottom: 3 * $spacing-unit;
+  padding-top: (1.5 * $spacing-unit);
 }
 
 .post-list-item {

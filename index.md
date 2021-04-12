@@ -8,6 +8,8 @@ layout: default
 
   <h1 class="heading-1 page-heading">Lauren Alyssa Ames is a Writer, Copyeditor, and Producer in NYC.</h1>
 
+  {% include circle-lockup.html %}
+
   {% assign posts = site.posts %}
 
   {% assign essays = site.posts | where: "categories", "Essays" %}

@@ -17,7 +17,7 @@ class FilterBar extends Component {
     const options = { threshold: [1] };
     
     const observer = new IntersectionObserver( 
-      ([e]) => e.target.toggleAttribute('stuck', e.intersectionRatio < 1),
+      ([e]) => e.target.toggleAttribute('stuck', e.intersectionRatio < 1 && e.boundingClientRect.top < 0),
       options
     );
 

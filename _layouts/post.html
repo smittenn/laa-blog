@@ -15,10 +15,12 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h5 class="heading-5">{% for category in page.categories %}
-      {{ category }}{% if forloop.last == false %}, {% endif %}
-    {% endfor %}</h5>
-    <h2 class="heading-2 widont" itemprop="name headline">{{ page.title }}</h2>
+    <h5 class="heading-5">
+      {% for category in page.categories %}
+        {{ category }}{% if forloop.last == false %}, {% endif %}
+      {% endfor %}
+    </h5>
+    <h2 class="heading-2 widont smart-quotes" itemprop="name headline">{{ page.title }}</h2>
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 

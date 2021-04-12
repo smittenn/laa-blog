@@ -1,14 +1,6 @@
 // Site footer
 .site-footer {
-  position: absolute;
   padding: (2 * $spacing-unit) 0;
-
-  hr {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-  }
 }
 
 .footer-heading {
@@ -22,14 +14,10 @@
 }
 
 .footer-col-wrapper {
-  // margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
+  display: flex;
 }
 
 .footer-col {
-  float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {

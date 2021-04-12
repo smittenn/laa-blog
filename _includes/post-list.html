@@ -4,8 +4,8 @@
       <hr/>
       <h5 class="post-list__category heading-5">{{ post.categories }}</h5>
       <h3 class="post-list__title heading-3">
-        <a class="post-link widont" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title}}
+        <a class="post-link widont smart-quotes" href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
         </a>
       </h3>
       <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>

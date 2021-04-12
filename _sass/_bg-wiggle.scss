@@ -12,6 +12,11 @@
   > svg {
     position: absolute;
 
+    &:first-child, &:last-child {
+      backface-visibility: hidden;
+      perspective: 1000;
+    }
+
     &:first-child {
       transform: rotate(45deg);
       left: 0;
@@ -31,7 +36,7 @@
 
   @keyframes wave-shift-1 {
     0% {
-      transform: rotate(45deg) translate3d(-72px,0,0) ;
+      transform: rotate(45deg) translate3d(-72px,0,0);
     }
     100% {
       transform: rotate(45deg) translate3d(72px,0,0);

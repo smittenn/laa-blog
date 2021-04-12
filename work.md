@@ -5,7 +5,7 @@ permalink: "/work/"
 layout: default
 ---
 
-<div class="">
+<div class="work">
 
   <h1 class="heading-1 page-heading">My Work</h1>
 
