@@ -3,8 +3,12 @@
   top: -1px;
   z-index: 1;
 
-  &__name, &__slash {
-    opacity: 0.6;
+  // &__name {
+  //   opacity: 0.6;
+  // }
+
+  &__slash {
+    opacity: 0.2;
   }
 
   &__name {
@@ -13,20 +17,27 @@
   }
 
   &--active {
-    opacity: 1;
+    @include link-style(3px);
   }
 
   &__count {
     transform: translateY(-100%);
-    letter-spacing: 0;
     display: inline-block;
   }
 
   &[stuck] {
-    background: linear-gradient(to right, $color-brand-pink 50%, transparent 100%);
+    background: linear-gradient(
+      45deg, 
+      $color-brand-pink 65%, 
+      transparent 75%
+    );
   }
 
-  @include media-query($on-palm) {
+  @include media-query($on-mobile) {
     display: none;
+    // > * {
+    //   overflow-x: scroll;
+    //   white-space: nowrap;
+    // }
   }
 }

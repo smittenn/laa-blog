@@ -15,21 +15,28 @@ class Widont extends Component {
   constructor(props) {
     super(props);
 
-    this.widonts = document.querySelectorAll('.widont');
+    if (this.props.root) {
+      this.state = {
+        text: this.props.root.innerText
+      }
 
-    if (this.widonts) {
-     this.widonts.forEach(item => {
-        this._widontReplace(item);
-      });
+      this._widontReplace(this.props.root);
     }
   }
 
-  _widontReplace(item) {
-    if (!item.getAttribute('widont')) {
-      // console.log(item.getAttribute('widont'));
-      const str = item.innerText;
+  componentDidMount() {
+    window.addEventListener('resize', this._widontReplace(this.props.root));
+  }
 
-      const widonted = str.replace(WIDONT_REGEX, function replacer(str, lead, word) {
+  componentWillUnmount() {
+    window.removeEventListener('resize', this._widontReplace(this.props.root));
+  }
+
+  _widontReplace(item) {
+    if (!item.getAttribute('widont') && window.innerWidth > 760) {
+      const str = this.state.text;
+
+      const replaced = str.replace(WIDONT_REGEX, function replacer(str, lead, word) {
         // Prefer replacing hyphens inside last word if present
         if (word.indexOf('-') >= 0) {
           return lead + ' ' + word.replace(DASH_REGEX, REPLACEMENT.hyphen)
@@ -37,7 +44,7 @@ class Widont extends Component {
         return lead + REPLACEMENT.space + word
       });
   
-      item.innerText = widonted;
+      item.innerText = replaced;
       item.setAttribute('widont', true);
     }
   }

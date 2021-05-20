@@ -58,73 +58,77 @@ html, body {
 
 .heading-1 {
   font-family: $font-family-display;
-  font-size: 120px;
+  font-size: 128px;
   line-height: (($golden-ratio - 1) / 12) + 1;
   font-weight: 300;
   letter-spacing: -3px;
   max-width: 960px;
-  animation-delay: 1 * $delay-base;
-  margin-bottom: 1.5 * $spacing-unit;
-
-  @include media-query($on-laptop) {
-    font-size: 80px;
-  }
-
-  @include media-query($on-palm) {
-    font-size: 64px;
-  }
+  margin-bottom: 2 * $spacing-unit;
 }
 
 .heading-2 {
   font-size: 64px;
-  animation-delay: 2 * $delay-base;
 }
 
 .heading-3 {
   font-size: 56px;
-  animation-delay: 3 * $delay-base;
 }
 
 .heading-4 {
-  font-size: 36px;
-  animation-delay: 4 * $delay-base;
+  font-size: 40px;
 }
 
 .heading-5 {
-  font-size: 30px;
-  animation-delay: 5 * $delay-base;
+  font-size: 34px;
 }
 
 .heading-6, .heading-7 {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "HK Grotesk", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .heading-6 {
   font-weight: 400;
-  font-size: 16px;
-  animation-delay: 6 * $delay-base;
+  font-size: 18px;
 }
 
 .heading-7 {
-  font-weight: 500;
-  font-size: 14px;
-  animation-delay: 7 * $delay-base;
+  font-weight: bold;
+  font-size: 16px;
+}
+ 
+.heading-4, .heading-5 {
+  a:hover {
+    @include link-style(3px);
+  }
 }
 
-.mb0 {
-  margin-bottom: 0;
+
+@include media-query($on-tablet) {
+  .heading-1 {
+    font-size: 80px;
+    letter-spacing: -1px;
+  }
+  .heading-3 {
+    font-size: 48px;
+  }
 }
 
-.m0 {
-  margin: 0;
-}
+@include media-query($on-mobile) {
+  .heading-1 {
+    font-size: 64px;
+  }
 
-.mt0 {
-  margin-top: 0;
-}
+  .heading-2 {
+    font-size: 56px;
+  }
 
-.ls0 {
-  letter-spacing: 0;
+  .heading-4 {
+    font-size: 32px;
+  }
+
+  .heading-5 {
+    font-size: 30px;
+  }
 }

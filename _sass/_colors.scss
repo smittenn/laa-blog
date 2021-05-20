@@ -60,13 +60,14 @@ body, a, a:hover {
 
 .icon {
   fill: var(--color-theme-fg);
+  stroke: var(--color-theme-fg)
 }
 
-body {
+body, .takeover {
   background-color: var(--color-theme-bg);
 }
 
-hr {
+hr, .takeover__line {
   background-color: var(--color-theme-fg);
 }
 

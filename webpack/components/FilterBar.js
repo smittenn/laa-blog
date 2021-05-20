@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 
+import { HEADER_BAR_SELECTOR, HEADER_BAR_HIDDEN } from '../constants';
+
 class FilterBar extends Component {
 
   constructor(props) {
     super(props);
 
-    this.filterBar = document.querySelectorAll('.filter-bar')[0];
+    this.filterBar = this.props.root;
+
+    this.headerBar = document.querySelectorAll(`.${HEADER_BAR_SELECTOR}`)[0];
 
     if (this.filterBar) {
       this._gradientOnSticky();
       this._filterItemClick();
+      this._onScroll();
+      document.addEventListener('scroll', () => this._onScroll());
     }
   }
 
@@ -17,15 +23,27 @@ class FilterBar extends Component {
     const options = { threshold: [1] };
     
     const observer = new IntersectionObserver( 
-      ([e]) => e.target.toggleAttribute('stuck', e.intersectionRatio < 1 && e.boundingClientRect.top < 0),
-      options
+      ([e]) => {
+        const isSticking = e.intersectionRatio < 1 && e.boundingClientRect.top < 0;
+        e.target.toggleAttribute('stuck', isSticking)
+      }, options
     );
 
     observer.observe(this.filterBar);
   }
 
+  _onScroll() {
+    if (this.filterBar.getBoundingClientRect().top - this.filterBar.offsetHeight < 0) {
+      // this.headerBar.setAttribute('disabled', "");
+      this.headerBar.classList.add(HEADER_BAR_HIDDEN);
+    } else {
+      // this.headerBar.removeAttribute('disabled');
+      this.headerBar.classList.remove(HEADER_BAR_HIDDEN);
+    }
+  }
+
   _filterItemClick() {
-    const filterBarItems = document.querySelectorAll('.filter-bar__name');
+    const filterBarItems = this.props.root.querySelectorAll('.filter-bar__name');
     const postLists = document.querySelectorAll('.post-list');
 
     Array.prototype.slice.call(postLists).slice(1).forEach(list => { list.style.display = 'none'; })
@@ -46,10 +64,6 @@ class FilterBar extends Component {
         document.getElementById(id).style.display = 'block';
       }
     });
-  }
-
-  _itemClick(e) {
-    console.log(e);
   }
 
   render() {

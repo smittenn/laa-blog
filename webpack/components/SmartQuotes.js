@@ -6,12 +6,8 @@ class SmartQuotes extends Component {
   constructor(props) {
     super(props);
 
-    this.smartQuotes = document.querySelectorAll('.smart-quotes');
-
-    if (this.smartQuotes) {
-     this.smartQuotes.forEach(item => {
-        this._smartQuoteReplace(item);
-      });
+    if (this.props.root) {
+      this._smartQuoteReplace(this.props.root);
     }
   }
 

@@ -6,7 +6,8 @@
   <body>
     {% include bg-wiggle.html %}
 
-    {% include header.html %}
+    {% include header.html classname='site-header--fixed' %}
+    {% include header.html classname='o0' %}
 
     <div class="page-content">
       <div class="wrapper">
@@ -16,6 +17,8 @@
     </div>
 
     {% include footer.html %}
+
+    {% include takeover.html %}
     <script type="text/javascript" src="{{"/assets/javascripts/bundle.js" | prepend: site.baseurl}}" charset="utf-8"></script>
   </body>
 

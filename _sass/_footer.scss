@@ -1,0 +1,22 @@
+// Site footer
+.site-footer {
+  padding-bottom: (1 * $spacing-unit);
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  span {
+    color: var(--color-theme-accent);
+  }
+}
+
+.page-link {
+  &:not(:last-child) {
+    margin-right: 24px;
+  }
+}

@@ -3,6 +3,7 @@ title: About
 date: 2021-02-13 15:50:00 -05:00
 permalink: "/about/"
 layout: page
+order: 3
 ---
 
 Lauren Alyssa Ames is a writer specializing in essays, short stories, humor, and human interest. Her first novel is currently in the works. Ask her about it; she loves talking about it.

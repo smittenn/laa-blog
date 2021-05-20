@@ -12,6 +12,7 @@
 	url('../assets/fonts/RecifeDisplay-Light.svg#codropsicons') format('svg');
 }
 
+
 @font-face {
 	font-family: 'Schnyder';
 	font-weight: 500;
@@ -22,4 +23,17 @@
 	url('../assets/fonts/Schnyder-Demi.woff') format('woff'), 
 	url('../assets/fonts/Schnyder-Demi.ttf') format('truetype'),
 	url('../assets/fonts/Schnyder-Demi.svg#codropsicons') format('svg');
+}
+
+
+@font-face {
+	font-family: 'HK Grotesk';
+	font-weight: 400;
+	font-style: normal;
+	src: url('../assets/fonts/HK-Grotesk-Regular.eot');
+	src: url('../assets/fonts/HK-Grotesk-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../assets/fonts/HK-Grotesk-Regular.woff2') format('woff2'), 
+	url('../assets/fonts/HK-Grotesk-Regular.woff') format('woff'), 
+	url('../assets/fonts/HK-Grotesk-Regular.ttf') format('truetype'),
+	url('../assets/fonts/HK-Grotesk-Regular.svg#codropsicons') format('svg');
 }

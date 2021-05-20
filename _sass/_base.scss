@@ -32,7 +32,10 @@
   margin-bottom: $spacing-unit / 2;
 }
 
-
+// Page content
+.page-content {
+  padding: ($spacing-unit * 1) 0 ;
+}
 
 /**
  * Images
@@ -67,23 +70,20 @@ li {
  }
 }
 
-
+[disabled] {
+  pointer-events: none;
+}
 
 /**
  * Links
  */
- a {
+a {
   text-decoration: none;
 
-    // &:visited {
-    //     color: darken($text-color, %);
-    // }
-
-    &:hover {
-      text-decoration: wavy underline var(--color-theme-accent) 4px;
-      text-decoration-skip-ink: none;
-    }
+  &:hover {
+    @include link-style();
   }
+}
 
 // Blockquotes
 blockquote {
@@ -102,6 +102,7 @@ blockquote {
 hr {
   border: none;
   height: 1px;
+  width: 100%;
   opacity: 0.1;
   margin: $spacing-unit 0;
 }
@@ -139,7 +140,7 @@ pre {
   padding-left: 2 * $spacing-unit;
   @extend %clearfix;
 
-  @include media-query($on-laptop) {
+  @include media-query($on-tablet) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width: calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
@@ -157,18 +158,3 @@ pre {
   }
 }
 
-
-
-// Icons
-.icon {
-  > svg {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-
-    path {
-      fill: $grey-color;
-    }
-  }
-}

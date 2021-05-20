@@ -16,9 +16,21 @@
 
     &:first-child {
       hr {
-        display: none;        
+        display: none;
+        
+        @include media-query($on-mobile) {
+          display: block;
+        }
       }
     }
+  }
+
+  &__title, &__description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    // margin-right: $spacing-unit * 1.5;
   }
 
   .home &, .work & {
@@ -26,8 +38,8 @@
       top: $spacing-unit;
       position: absolute;
     }
-    .post-list__title, .post-list__category, .post-content {
-      transform: translate3d(33.3333%,0,0);
+    .post-list__title, .post-list__category, .post-list__description {
+      transform: translate3d(33.3333%, 0, 0);
     }
     > li {
       &:first-child {
@@ -36,26 +48,32 @@
         }
       }
     }
+    @include media-query($on-tablet) {
+      .post-meta {
+        position: relative;
+        top: auto;
+      }
+      .post-list__title, .post-list__category, .post-list__description {
+        transform: none;
+      }
+    }
   }
 }
 
 .post {
   max-width: 720px;
   margin: 0 auto;
-  padding-top: (1.5 * $spacing-unit);
+  padding-top: (1 * $spacing-unit);
 }
 
 .post-list-item {
   > * {
     max-width: 720px;
 
-    @include media-query($on-laptop) {
+    @include media-query($on-tablet) {
       max-width: 100%;
     }
   }
-}
-
-.post-meta {
 }
 
 .post-link {
@@ -75,10 +93,6 @@
   text-align: center;
 }
 
-.post-title {
-
-}
-
 .related-posts {
   .post-list {
     display: flex;
@@ -87,11 +101,10 @@
       display: none;
     }
 
-    .post-list-item {
-      margin-right: $spacing-unit;
-      width: 50%;
+    &__title, &__description {
+      margin-right: $spacing-unit * 1.5;
     }
-  } 
+  }
 }
 
 .post-content {
@@ -102,7 +115,7 @@
     transform: translate(-(2 * $spacing-unit));
     margin: (1.5 * $spacing-unit) 0;
 
-    @include media-query($on-laptop) {
+    @include media-query($on-tablet) {
       min-width: 100%;
       max-width: 100%;
       transform: none;
@@ -112,7 +125,7 @@
   h2 {
     font-size: 32px;
 
-    @include media-query($on-laptop) {
+    @include media-query($on-tablet) {
       font-size: 28px;
     }
   }
@@ -120,7 +133,7 @@
   h3 {
     font-size: 26px;
 
-    @include media-query($on-laptop) {
+    @include media-query($on-tablet) {
       font-size: 22px;
     }
   }
@@ -128,25 +141,18 @@
   h4 {
     font-size: 20px;
 
-    @include media-query($on-laptop) {
+    @include media-query($on-tablet) {
       font-size: 18px;
     }
   }
 
   p {
     a {
-      text-decoration: underline;
+      text-decoration: underline 1px;
 
       &:hover {
         text-decoration: none;
       }
     }
-  }
-
-  &--truncated {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
   }
 }

@@ -1,22 +1,24 @@
 <footer class="site-footer">
   <div class="wrapper">
     <hr class="mt0"/>
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-3">
-        <p class="mb0">{{ site.description }}</p>
+    <div class="grid">
+      <div class="grid__item grid__item--col-5 grid__item--col-12-tablet">
+        <p class="">{{ site.description }}</p>
       </div>
 
-      <div class="footer-col footer-col-2"></div>
+      <div class="grid__item grid__item--col-3 grid__item--hide-tablet"></div>
 
-      <div class="footer-col footer-col-1">
+      <div class="grid__item grid__item--col-4 grid__item--col-12-tablet">
         <ul class="social-media-list">
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a><span>&nbsp;●&nbsp;</span></li>
           {% if site.twitter_username %}
-            <li><a href="//twitter.com/{{ site.twitter_username }}">twitter</a></li>
+            <li><a href="//twitter.com/{{ site.twitter_username }}">twitter</a><span>&nbsp;●&nbsp;</span></li>
           {% endif %}
           {% if site.instagram_username %}
-            <li><a href="//instagram.com/{{ site.instagram_username }}">instagram</a></li>
+            <li><a href="//instagram.com/{{ site.instagram_username }}">instagram</a><span>&nbsp;●&nbsp;</span></li>
           {% endif %}
+          <li><a href="https://www.linkedin.com/in/laurenalyssaames/">linkedin</a><span>&nbsp;●&nbsp;</span></li>
+          <li><a href="https://www.goodreads.com/user/show/111201570-lauren">goodreads</a></li>
         </ul>
       </div>
     </div>

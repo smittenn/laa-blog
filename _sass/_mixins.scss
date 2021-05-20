@@ -1,0 +1,4 @@
+@mixin link-style($thickness: 4px) {
+  text-decoration: wavy underline var(--color-theme-accent) $thickness;
+  text-decoration-skip-ink: none;
+ }

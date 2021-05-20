@@ -1,0 +1,42 @@
+// Site header
+.site-header {
+  position: relative;
+  width: 100%;
+  transition: $easing2 $duration-short;
+  transition-property: opacity, transform;
+
+  &--fixed {
+    position: fixed;
+    z-index: 9;
+  }
+
+  &--hidden {
+    transform: translate3d(0,-100%,0);
+  }
+}
+
+.site-title {
+  display: inline-block;
+}
+
+.home-icon {
+  text-transform: lowercase;
+  letter-spacing: 0;
+  z-index: 2;
+
+  @keyframes flip {
+    0% {
+      transform: rotate3d(0,1,0,0deg);
+    }
+    100% {
+      transform: rotate3d(0,1,0,360deg);
+    }
+  }
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}

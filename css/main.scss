@@ -6,16 +6,20 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "constants",
+	"mixins",
 	"colors",
 	"typography",
 	"fonts",
-	"site-footer",
-	"site-header",
+	"icons",
+	"footer",
+	"header",
+	"takeover",
   "base",
-	"layout",
+	"grid",
 	"bg-wiggle",
 	"circle-lockup",
   "filter-bar",
   "posts",
-  "image"
+  "image",
+	"overrides"
 ;
