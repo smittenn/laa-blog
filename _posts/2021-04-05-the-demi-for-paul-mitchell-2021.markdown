@@ -1,5 +1,5 @@
 ---
-title: 'The Demi for Paul Mitchell'
+title: The Demi for Paul Mitchell
 date: 2021-04-05 14:43:00 -04:00
 categories:
 - Producing
