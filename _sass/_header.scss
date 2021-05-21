@@ -5,6 +5,11 @@
   transition: $easing2 $duration-short;
   transition-property: opacity, transform;
 
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
   &--fixed {
     position: fixed;
     z-index: 9;
