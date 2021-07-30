@@ -1,5 +1,5 @@
 ---
-title: The Demi for Paul Mitchell
+title: The Demi
 date: 2021-04-05 14:43:00 -04:00
 categories:
 - Producing
@@ -20,7 +20,7 @@ theme_color: "#767288"
 
 **Post Production**: Pistol Studios
 
-**Executive Producer**: Jason Tuchman
+**Post Executive Producer**: Jason Tuchman
 
 **Producer**: Edwin Reyes
 
