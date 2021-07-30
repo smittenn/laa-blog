@@ -19,9 +19,9 @@ categories:
 
 **Producer**: Lauren Ames
 
-**Post Production**: Versatile Studios
+**Post Production**: Pistol Studios
 
-**Post Executive Producer**: Jason Tuchman
+**Executive Producer**: Jason Tuchman
 
 **Post Producer**: Edwin Reyes
 
