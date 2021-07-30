@@ -2,19 +2,21 @@
 title: About
 date: 2021-02-13 15:50:00 -05:00
 permalink: "/about/"
-layout: page
 order: 3
+layout: page
 ---
 
-Lauren Alyssa Ames is a writer specializing in essays, short stories, humor, and human interest. Her first novel is currently in the works. Ask her about it; she loves talking about it.
+Lauren Alyssa Ames is a Writer and Producer from NYC.
 
-In addition to writing, Lauren is a producer specializing in commercial photo, video, and animation. As of 2021, she is working with a  production consultancy called [The Auxiliary Co.](http://www.theauxiliaryco.com/)
+WRITING: Lauren specializes in essays, short stories, humor, and human interest. Her first novel is currently "in the works." Ask her about it; she loves talking about it.
+
+PRODUCING: Lauren is a producer specializing in branded photo, video, and animation. In 2020 she began working with a  production consultancy called [The Auxiliary Co.](http://www.theauxiliaryco.com/), and she's still there! Can you believe? She loves it!
 
 For all inquiries, please email [laurenalyssaames@gmail.com](mailto:laurenalyssaames@gmail.com).
 
-For shitposting, search @laurynaymes.
+For shitposting, search @laurynaymes. Something will come up.
 
 For what she’s reading, friend her on [Goodreads](https://www.goodreads.com/user/show/111201570-lauren).
 
-Lauren is a native New Yorker currently living in Seattle with her dog, [Sandwich](https://www.instagram.com/sandwichtheterrier/).
+For pictures of Lauren's dog, Sandwich, visit [his Instagram](https://www.instagram.com/sandwichtheterrier/).
 
