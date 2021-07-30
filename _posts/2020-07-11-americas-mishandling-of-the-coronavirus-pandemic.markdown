@@ -1,6 +1,6 @@
 ---
 title: What We Can Learn From America’s Mishandling of the Coronavirus Pandemic
-date: 2021-02-22 21:00:00 -05:00
+date: 2020-07-11 21:00:00 -04:00
 categories:
 - Essays
 theme_color: "#141112"
