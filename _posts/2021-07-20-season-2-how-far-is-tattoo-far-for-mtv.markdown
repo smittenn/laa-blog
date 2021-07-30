@@ -1,5 +1,5 @@
 ---
-title: Steve Schirripa Billboard Stunt
+title: 'Sir Kensington''s: Steve Schirripa Billboard Stunt'
 date: 2021-07-20 14:47:00 -04:00
 categories:
 - Producing
