@@ -1,6 +1,8 @@
 ---
 title: 'pH-D: Product Vignettes'
-date: 2021-07-30 17:21:00 -04:00
+date: 2021-06-01 17:21:00 -04:00
+categories:
+- Producing
 ---
 
 **For**: pH-D
