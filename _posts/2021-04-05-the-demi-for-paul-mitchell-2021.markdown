@@ -8,8 +8,7 @@ theme_color: "#767288"
 
 **For**: John Paul Mitchell Systems
 **Agency Production**: The Auxiliary Co.
-
-**Executive Producer**: Dani Dufresne
+**Executive Producer**: Dani Dufresne Ward
 **Producer**: Lauren Ames
 
 **Photography**: Adam Savitch
