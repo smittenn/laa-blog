@@ -22,3 +22,5 @@ For **what she’s reading,** friend her on [Goodreads](https://www.goodreads.co
 
 For **pictures of Lauren's dog,** Sandwich, visit [his Instagram](https://www.instagram.com/sandwichtheterrier/).
 
+{% include instagram-embed.html id="CEouUeQjqch" %}
+
