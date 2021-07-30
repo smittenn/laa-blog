@@ -1,6 +1,6 @@
 ---
 title: Cocktails for a Newly Single Woman!
-date: 2021-02-28 03:26:00 -05:00
+date: 2020-09-16 03:26:00 -04:00
 categories:
 - Humor
 ---
