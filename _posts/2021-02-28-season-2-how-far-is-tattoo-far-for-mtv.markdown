@@ -1,10 +1,28 @@
 ---
-title: 'Season 2: How Far is Tattoo Far? for MTV'
+title: Steve Schirripa Billboard Stunt
 date: 2021-02-28 14:47:00 -05:00
 categories:
 - Producing
 ---
 
-How Far is Tattoo Far? puts relationships to the test by asking pairs of friends, family members and couples to design tattoos for each other that won't be revealed until after they've been permanently inked.
+**For**: Sir Kensington's
 
-{% include youtube.html id="UoTgSFDXHEo" %}
+**Director**: Lauren Ames
+
+**Agency**: Interesting Development
+
+**Agency Producer**: Trevor Bozyk
+
+**PR**: The Door
+
+**Agency Production**: The Auxiliary Co.
+
+**Executive Producer**: Dani Dufresne
+
+**Producer**: Lauren Ames
+
+**DP**: Michael Della Polla
+
+**Post Production**: Versatile Studios
+
+{% include instagram-embed.html id="CRrTexKj" %}
