@@ -5,7 +5,7 @@ categories:
 - Producing
 ---
 
-**For**: pH-D
+**For**: pH-D Feminine Wellness
 
 **Director**: Marysia Makowska
 
