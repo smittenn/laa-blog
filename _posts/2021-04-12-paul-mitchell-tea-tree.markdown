@@ -1,6 +1,6 @@
 ---
 title: 'Paul Mitchell: Tea Tree'
-date: 2021-04-13 17:46:00 -04:00
+date: 2021-04-12 17:46:00 -04:00
 ---
 
 **For**: John Paul Mitchell Systems
