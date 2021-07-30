@@ -1,6 +1,8 @@
 ---
 title: 'Estee Lauder: Futurist Aqua Brilliance'
-date: 2021-07-30 17:44:00 -04:00
+date: 2020-12-15 17:44:00 -05:00
+categories:
+- Producing
 ---
 
 **For**: John Paul Mitchell Systems
@@ -26,3 +28,5 @@ date: 2021-07-30 17:44:00 -04:00
 {% include instagram-embed.html id="CHN38AqAwos" %}
 
 {% include instagram-embed.html id="CHLQZNxg5uL" %}
+
+{% include instagram-embed.html id="CHQgDq_Ag4b" %}
