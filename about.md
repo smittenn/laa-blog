@@ -10,11 +10,11 @@ layout: page
 
 **WRITING:** Lauren specializes in essays, short stories, humor, and human interest. Her first novel is currently "in the works." What does that mean? Ask her!
 
-For **WRITING** inquiries, please email [laurenalyssaames@gmail.com](mailto:laurenalyssaames@gmail.com).
+For WRITING inquiries, please email [laurenalyssaames@gmail.com](mailto:laurenalyssaames@gmail.com).
 
 **PRODUCING:** Lauren is a producer specializing in branded photo, video, animation, and documentary. In 2020 she began producing [remotely] with a  production consultancy called [The Auxiliary Co.](http://www.theauxiliaryco.com/) and absolutely loves it.
 
-For **PRODUCING** inquiries, please email [lauren@theauxiliaryco.com](mailto:lauren@theauxiliaryco.com).
+For PRODUCING inquiries, please email [lauren@theauxiliaryco.com](mailto:lauren@theauxiliaryco.com).
 
 For **shitposting,** search @laurynaymes. Something will come up.
 
