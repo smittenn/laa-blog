@@ -1,5 +1,5 @@
 ---
-title: 'Estee Lauder: Futurist Aqua Brilliance'
+title: 'Estée Lauder: Futurist Aqua Brilliance'
 date: 2020-12-15 17:44:00 -05:00
 categories:
 - Producing
