@@ -1,5 +1,5 @@
 ---
-title: Driftwell Cinemagraphs
+title: 'Driftwell: Cinemagraphs'
 date: 2021-07-27 23:30:00 -04:00
 categories:
 - Producing
