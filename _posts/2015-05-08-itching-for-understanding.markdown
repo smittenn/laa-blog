@@ -1,6 +1,6 @@
 ---
 title: Itching for Understanding
-date: 2021-02-23 01:48:00 Z
+date: 2015-05-08 20:48:00 -04:00
 categories:
 - Essays
 ---
