@@ -10,10 +10,6 @@ theme_color: "#AD6078"
 
 **Director**: Andy Dulman
 
-**Production Company**: Wrong Creative
-
-**Production Producer**: Mariah Morgenstern
-
 **Agency**: Fancy
 
 **Agency Production**: The Auxiliary Co.
@@ -22,6 +18,8 @@ theme_color: "#AD6078"
 
 **Producer**: Lauren Ames
 
-**Post Production**: Wrong Creative
+**Production Company**: Wrong Creative
+
+**Production Producer**: Mariah Morgenstern
 
 {% include instagram-embed.html id="CLSKYGng1IB" %}
