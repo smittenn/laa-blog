@@ -12,7 +12,7 @@ WRITING: Lauren specializes in essays, short stories, humor, and human interest.
 
 For WRITING inquiries, please email [laurenalyssaames@gmail.com](mailto:laurenalyssaames@gmail.com).
 
-PRODUCING: Lauren is a producer specializing in branded photo, video, animation, and documentary. In 2020 she began working with a  production consultancy called [The Auxiliary Co.](http://www.theauxiliaryco.com/), and absolutely loves it.
+PRODUCING: Lauren is a producer specializing in branded photo, video, animation, and documentary. In 2020 she began producing [remotely] with a  production consultancy called [The Auxiliary Co.](http://www.theauxiliaryco.com/) and absolutely loves it.
 
 For WRITING inquiries, please email [lauren@theauxiliaryco.com](mailto:lauren@theauxiliaryco.com).
 
