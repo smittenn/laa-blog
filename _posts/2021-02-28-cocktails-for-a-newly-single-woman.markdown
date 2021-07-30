@@ -5,7 +5,7 @@ categories:
 - Humor
 ---
 
-Hosting after a breakup? These are the recipes you’ve been looking for. Did I mention that they're all garnished with a broken heart?
+Hosting after a breakup? These are the recipes you’ve been looking for. Did I mention that they're all garnished with a slice of your dignity?
 
 {% include image.html url="../../../../uploads/cocktails-for-a-newly-single-woman.jpg" description="Image by [Noelle Campbell](https://hellonoelle.co/)" %}
 
