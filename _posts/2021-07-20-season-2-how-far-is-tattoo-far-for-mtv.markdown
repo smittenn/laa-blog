@@ -15,7 +15,7 @@ categories:
 
 **PR**: The Door
 
-**Agency Production**: The Auxiliary Co.
+**Production Consultancy**: The Auxiliary Co.
 
 **Executive Producer**: Dani Dufresne
 
