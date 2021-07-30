@@ -15,13 +15,13 @@ categories:
 
 **Production Consultancy**: The Auxiliary Co.
 
-**Executive Producer**: Dani Dufresne
+**Consulting Executive Producer**: Dani Dufresne
 
 **Producer**: Lauren Ames
 
 **Post Production**: Pistol Studios
 
-**Executive Producer**: Jason Tuchman
+**Post Executive Producer**: Jason Tuchman
 
 **Post Producer**: Edwin Reyes
 
