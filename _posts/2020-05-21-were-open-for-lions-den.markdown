@@ -1,5 +1,5 @@
 ---
-title: We're Open
+title: 'Lion''s Den: We''re Open'
 date: 2020-05-21 14:56:00 -04:00
 categories:
 - Producing
