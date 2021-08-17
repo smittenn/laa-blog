@@ -1,6 +1,7 @@
 ---
 title: Lauren Alyssa Ames
 timezone: America/New_York
+permalink: /:title/
 collections:
   posts:
     title: Posts

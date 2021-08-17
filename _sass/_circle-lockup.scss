@@ -3,6 +3,7 @@
   right: 0;
   transform: translate(-64px, -192px);
   transition: transform $easing6 $duration-short;
+  cursor: pointer;
 
   &:hover {
     transform: translate(-64px, -192px) rotate(90deg);

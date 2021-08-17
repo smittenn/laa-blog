@@ -1,46 +1,71 @@
-{% assign posts = site.posts %}
+{% assign everything = site.posts %}
 
 {% assign essays = site.posts | where: "categories", "Essays" %}
 {% assign humor = site.posts | where: "categories", "Humor" %}
 {% assign producing = site.posts | where: "categories", "Producing" %}
 {% assign copywriting = site.posts | where: "categories", "Copywriting" %}
 
+<!-- {% assign array = "" | split: "" %} -->
+<!-- {% assign array = everything | concat: essays | concat: humor | concat: producing | concat: copywriting %} -->
+<!-- {% for category in array %}
+<span class="filter-bar__name {% if forloop.index == 0 %}filter-bar--active{% endif %}" data="{{ category }}">
+  {{ category.size }}<span class="filter-bar__count heading-6 ls0">{{ category.size }}</span>
+</span>
+{% endfor %} -->
+
 <div class="filter-bar">
   <hr>
   <h4 class="heading-4">
     <span class="filter-bar__name filter-bar--active" data="everything">
-      Everything<span class="filter-bar__count heading-6 ls0">{{posts.size}}</span>
+      Everything<span class="filter-bar__count heading-6 ls0">{{ everything.size }}</span>
     </span>
-    <span class="filter-bar__slash">/</span>
-    <span class="filter-bar__name" data="essays">
-      Essays<span class="filter-bar__count heading-6 ls0">{{essays.size}}</span>
-    </span>
-    <span class="filter-bar__slash">/</span>
-    <span class="filter-bar__name" data="humor">
-      Humor<span class="filter-bar__count heading-6 ls0">{{humor.size}}</span>
-    </span>
-    <span class="filter-bar__slash">/</span>
-    <span class="filter-bar__name" data="copywriting">
-      Copywriting<span class="filter-bar__count heading-6 ls0">{{copywriting.size}}</span>
-    </span>
-    <span class="filter-bar__slash">/</span>
-    <span class="filter-bar__name" data="producing">
-      Producing<span class="filter-bar__count heading-6 ls0">{{producing.size}}</span>
-    </span>
+    {% if producing.size > 0 %}
+      <span class="filter-bar__slash">/</span>
+      <span class="filter-bar__name" data="producing">
+        Producing<span class="filter-bar__count heading-6 ls0">{{ producing.size }}</span>
+      </span>
+    {% endif %}
+    {% if essays.size > 0 %}
+      <span class="filter-bar__slash">/</span>
+      <span class="filter-bar__name" data="essays">
+        Essays<span class="filter-bar__count heading-6 ls0">{{ essays.size }}</span>
+      </span>
+    {% endif %}
+    {% if humor.size > 0 %}
+      <span class="filter-bar__slash">/</span>
+      <span class="filter-bar__name" data="humor">
+        Humor<span class="filter-bar__count heading-6 ls0">{{ humor.size }}</span>
+      </span>
+    {% endif %}
+    {% if copywriting.size > 0 %}
+      <span class="filter-bar__slash">/</span>
+      <span class="filter-bar__name" data="copywriting">
+        Copywriting<span class="filter-bar__count heading-6 ls0">{{ copywriting.size }}</span>
+      </span>
+    {% endif %}
   </h4>
   <hr>
 </div>
 
+{% assign posts = everything %}
 {% include post-list.html id="everything" %}
 
-{% assign posts = essays %}
-{% include post-list.html id="essays" %}
+{% if producing.size > 0 %}
+  {% assign posts = producing %}
+  {% include post-list.html id="producing" %}
+{% endif %}
 
-{% assign posts = humor %}
-{% include post-list.html id="humor" %}
+{% if essays.size > 0 %}
+  {% assign posts = essays %}
+  {% include post-list.html id="essays" %}
+{% endif %}
 
-{% assign posts = copywriting %}
-{% include post-list.html id="copywriting" %}
+{% if humor.size > 0 %}
+  {% assign posts = humor %}
+  {% include post-list.html id="humor" %}
+{% endif %}
 
-{% assign posts = producing %}
-{% include post-list.html id="producing" %}
+{% if copywriting.size > 0 %}
+  {% assign posts = copywriting %}
+  {% include post-list.html id="copywriting" %}
+{% endif %}
