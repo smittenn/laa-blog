@@ -1,7 +1,6 @@
 ---
 title: Lauren Alyssa Ames
 timezone: America/New_York
-permalink: /:title/
 collections:
   posts:
     title: Posts
@@ -15,6 +14,7 @@ defaults:
     type: posts
   values:
     theme_color: ''
+permalink: "/:title/"
 email: laurenalyssaames@gmail.com
 description: Lauren Alyssa Ames is a writer specializing in essays, short stories,
   humor, and human interest.  Her first novel is in the works.
