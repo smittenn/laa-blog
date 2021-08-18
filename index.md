@@ -7,7 +7,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="heading-1 page-heading">Lauren Alyssa Ames is a Writer and Producer from NYC.</h1>
+  <h1 class="heading-1 page-heading">Lauren Alyssa Ames is a Producer and Writer from NYC.</h1>
 
   {% include filterable-post-list.html %}
 
