@@ -5,6 +5,8 @@ categories:
 - Producing
 ---
 
+Stressed? Not anymore! These ASMR-esque cinemagraphs for Driftwell will help ease your nerves and relax your shoulders.
+
 **For**: Driftwell
 
 **Agency**: M Booth
