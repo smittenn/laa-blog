@@ -5,22 +5,6 @@ categories:
 - Producing
 ---
 
-Stressed? Not anymore! These ASMR-esque cinemagraphs for Driftwell will help ease your nerves and relax your eyeballs.
-.
-
-.
-
-.
-
-{% include instagram-embed.html id="CR1ek9nrqtS" %}
-
-{% include instagram-embed.html id="CQ_QMNnFe6Z" %}
-
-{% include instagram-embed.html id="CQeeVw-rM-C" %}
-
-{% include instagram-embed.html id="CPYzjM-ntDe" %}
-
-
 **For**: Driftwell
 
 **Agency**: M Booth
@@ -40,3 +24,12 @@ Stressed? Not anymore! These ASMR-esque cinemagraphs for Driftwell will help eas
 **Post Executive Producer**: Jason Tuchman
 
 **Post Producer**: Edwin Reyes
+
+
+{% include instagram-embed.html id="CR1ek9nrqtS" %}
+
+{% include instagram-embed.html id="CQ_QMNnFe6Z" %}
+
+{% include instagram-embed.html id="CQeeVw-rM-C" %}
+
+{% include instagram-embed.html id="CPYzjM-ntDe" %}
