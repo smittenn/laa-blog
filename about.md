@@ -12,9 +12,9 @@ layout: page
 
 For WRITING inquiries, please email [laurenalyssaames@gmail.com](mailto:laurenalyssaames@gmail.com).
 
-**PRODUCING:** Lauren is a producer specializing in branded photo, video, animation, and documentary. In 2020 she began producing [remotely] with a  production consultancy called [The Auxiliary Co.](http://www.theauxiliaryco.com/) and absolutely loves it.
+**PRODUCING:** Lauren is a producer specializing in branded photo, video, animation, and documentary. In 2020 she began producing [remotely] with a  production consultancy called [The Auxiliary Co.](http://www.theauxiliaryco.com/).
 
-For PRODUCING inquiries, please email [lauren@theauxiliaryco.com](mailto:lauren@theauxiliaryco.com).
+For PRODUCING inquiries, please email [lauren@theauxiliaryco.com](mailto:lauren@theauxiliaryco.com) and tell 'em www.LAA.fun sent ya.
 
 For **shitposting,** search @laurynaymes. Something will come up.
 
