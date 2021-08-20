@@ -25,7 +25,7 @@ categories:
 
 **Post Production**: Versatile Studios
 
-As seen in [AdWeek](https://www.adweek.com/creativity/sir-kensingtons-created-a-campaign-so-tempting-the-city-wouldnt-stop-eating-it/) and [AdAge](https://adage.com/article/marketing-news-strategy/canceled-chrissy-teigen-sir-ken[…]34%3A285215427%3A24%3Asuccess%3AB15A609B6F1D1CE899AF0AF957E17BA3)!
+**~ ~ ~ As seen in [AdWeek](https://www.adweek.com/creativity/sir-kensingtons-created-a-campaign-so-tempting-the-city-wouldnt-stop-eating-it/) and [AdAge](https://adage.com/article/marketing-news-strategy/canceled-chrissy-teigen-sir-ken[…]34%3A285215427%3A24%3Asuccess%3AB15A609B6F1D1CE899AF0AF957E17BA3)!**
 
 
 {% include instagram-embed.html id="CRkTwBkHPFT" %}
