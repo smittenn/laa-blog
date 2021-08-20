@@ -29,3 +29,6 @@ categories:
 
 
 {% include instagram-embed.html id="CRkTwBkHPFT" %}
+{% include instagram-embed.html id="CRmHRe8KaUOT" %}
+{% include instagram-embed.html id="CRrTexKj-Is" %}
+{% include instagram-embed.html id="CRkVCoaDWpO" %}
