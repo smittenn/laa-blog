@@ -12,7 +12,7 @@ layout: page
 
 For WRITING inquiries, please email [laurenalyssaames@gmail.com](mailto:laurenalyssaames@gmail.com).
 
-**PRODUCING:** Lauren is a producer specializing in photo, video, comedy, animation, and documentary, and anything branded. She currently works at [Little Dot Studios] (https://www.littledotstudios.com/en-us/) and is loving it.
+**PRODUCING:** Lauren is a producer specializing in photo, video, comedy, animation, documentary, and anything branded. She currently works at [Little Dot Studios] (https://www.littledotstudios.com/en-us/) and is loving it.
 
 For **shitposting,** search @laurynaymes anywhere.
 
