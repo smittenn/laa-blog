@@ -8,7 +8,7 @@ categories:
 
 **Writer, Producer, Director**: Lauren Ames
 
-**DP**: Johnny Syres
+**Director of Photography**: Johnny Syres
 
 **Composer**: David Hoffman
 
