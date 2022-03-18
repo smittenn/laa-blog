@@ -2,6 +2,9 @@
 title: 'Voicemail: Comedy Short'
 date: 2022-03-18 15:12:00 -04:00
 published: false
+categories:
+- Humor
+- Producing
 ---
 
 **Writer, Producer, Director**: Lauren Ames
@@ -16,11 +19,4 @@ published: false
 
 **Sound Designer**: Claire Zhang
 
-
-{% include instagram-embed.html id="CR1ek9nrqtS" %}
-
-{% include instagram-embed.html id="CQ_QMNnFe6Z" %}
-
-{% include instagram-embed.html id="CQeeVw-rM-C" %}
-
-{% include instagram-embed.html id="CPYzjM-ntDe" %}
+{% include image.html url="../../../../uploads/cocktails-for-a-newly-single-woman.jpg" description="Image by [Noelle Campbell](https://hellonoelle.co/)" %}
